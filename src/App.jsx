@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import geLogo from "./assets/GE_HealthCare_logo_2023.png";
 
-const API_BASE = "https://98.86.216.250/api/equipment";
+const API_BASE = "https://98.86.216.250/api";
 
 function AddRecordModal({ onClose, onSuccess, equipmentTypes, locations }) {
   const [form, setForm] = useState({
