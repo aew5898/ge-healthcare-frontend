@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import geLogo from "./assets/GE-HealthCare.png";
+import geLogo from "./assets/GE_HealthCare_logo_2023.png";
 
 function App() {
   const [equipment, setEquipment] = useState([]);
